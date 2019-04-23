@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-    img(src='./assets/logo.png')
+    img(src='https://ludwingra.github.io/megamusic/dist/logo.png')
     h1 MegaMusic
     select(v-model="selectedCountry")
         option(v-for="country in countries" v.bind:value="contry.value") {{ country.name }}
